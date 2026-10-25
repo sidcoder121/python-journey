@@ -12,7 +12,7 @@ for a in range(1,len(li)+1):
     multi = multi * a
 print(multi)
 
-3. Write a Python program to get the largest number from a list
+#3. Write a Python program to get the largest number from a list
 
 li = [43,54,34,65,56]
 max = li[0]
@@ -23,7 +23,7 @@ print(max)
 
 
 
-4. Write a Python program to get the smallest number from a list.
+#4. Write a Python program to get the smallest number from a list.
 
 li =[43, 54, 34, 65, 56]
 min = li[0]
@@ -34,7 +34,7 @@ for i in li:
 print(min)
 
 
-5. Write a Python program to count the number of strings from a given list of strings. The string length is 2 or more and the first and last characters are the same.
+#5. Write a Python program to count the number of strings from a given list of strings. The string length is 2 or more and the first and last characters are the same.
 
 li = ['abca', 'aabc', '1221', 'abcda']
 for i in li:
@@ -43,21 +43,21 @@ for i in li:
             print(i)
 
 
-6. Write a Python program to get a list, sorted in increasing order by the last element in each tuple from a given list of non-empty tuples.
+#6. Write a Python program to get a list, sorted in increasing order by the last element in each tuple from a given list of non-empty tuples.
 
 li = [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
 li.sort(key=lambda x:x[-1])
 print(li)
 
 
-7. Write a Python program to remove duplicates from a list
+#7. Write a Python program to remove duplicates from a list
 
 
 li = [10,20,30,20,10,50,60,40,80,50,40]
 print(list(set(li)))
 
 
-8. Write a Python program to check if a list is empty or not.
+#8. Write a Python program to check if a list is empty or not.
 
 
 li = [24, 25]
@@ -67,7 +67,7 @@ else:
     print("list is not empty")
 
 
-9.  Write a Python program to clone or copy a list.
+#9.  Write a Python program to clone or copy a list.
 
 li = [10, 22, 44, 23, 4]
 li2 = li.copy()
@@ -75,7 +75,7 @@ print(li2)
 print(li)
 
 
-10.  Write a Python program to find the list of words that are longer than n from a given list of words.
+#10.  Write a Python program to find the list of words that are longer than n from a given list of words.
 
 
 li = ['abc', 'xyz', 'aba', '1221']
@@ -88,7 +88,7 @@ for i in li:
 else:print("length is small")
 
 
-11. Write a Python function that takes two lists and returns True if they have at least one common member.
+#11. Write a Python function that takes two lists and returns True if they have at least one common member.
 
 li1  = [1, 2, 3, 4, 5]
 li2 = [5, 6, 7, 8, 9]
@@ -98,7 +98,7 @@ for i in li1:
             print("True")
 
 
-11. Write a Python function that takes two lists and returns True if they have at least one common member.
+#11. Write a Python function that takes two lists and returns True if they have at least one common member.
 
 li1  = [1, 2, 3, 4, 5]
 li2 = [5, 6, 7, 8, 9]
@@ -109,7 +109,7 @@ for i in li1:
 
 
 
-12. Write a Python program to print a specified list after removing the 0th, 4th and 5th elements.
+#12. Write a Python program to print a specified list after removing the 0th, 4th and 5th elements.
 
 li =  ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
 li.pop(0)
@@ -119,7 +119,7 @@ print(li)
 
 
 
-13. Write a Python program to generate a 3*4**6 3D array whose each element is *.
+#13. Write a Python program to generate a 3*4**6 3D array whose each element is *.
 
 
 li = [[['*' for col in range(6)] for col in range(4)] for row in range(3)]
@@ -127,7 +127,7 @@ print(li)
 
 
 
-14. Write a Python program to print the numbers of a specified list after removing even numbers from it
+#14. Write a Python program to print the numbers of a specified list after removing even numbers from it
 
 li = [7,8, 120, 25, 44, 20, 27]
 for i in li:
@@ -135,14 +135,14 @@ for i in li:
         li.remove(i)
 print(li)
 
-15. Write a Python program to shuffle and print a specified list.
+#15. Write a Python program to shuffle and print a specified list.
 
 li = [3, 6, 9, 12, 15, 18, 21]
 import random
 random.shuffle(li)
 print(li)
 
-16. Write a Python program to generate and print a list of the first and last 5 elements where the values are square numbers between 1 and 30 (both included).
+#16. Write a Python program to generate and print a list of the first and last 5 elements where the values are square numbers between 1 and 30 (both included).
 
 li = []
 for i in range(1,31):
@@ -152,7 +152,7 @@ print(li[-5:])
 
 
 
-17. Write a Python program to check if each number is prime in a given list of numbers. Return True if all numbers are prime otherwise False.
+#17. Write a Python program to check if each number is prime in a given list of numbers. Return True if all numbers are prime otherwise False.
 
 li = [0, 3, 4, 7, 9]
 for i in li:
@@ -162,14 +162,14 @@ for i in li:
         print("True")
 
 
-18. Write a  Python program to generate all permutations of a list in Python.
+#18. Write a  Python program to generate all permutations of a list in Python.
 
 li = [1, 2, 3]
 import itertools
 print(list(itertools.permutations(li)))
 
 
-19. Write a Python program to calculate the difference between the two lists.
+#19. Write a Python program to calculate the difference between the two lists.
 
 li1 =[1, 3, 5, 7, 9]
 li2 = [1, 2, 4, 6, 7, 8]
@@ -180,14 +180,14 @@ for i in li1:
 print(li3)
 
 
-20. Write a Python program to access the index of a list.
+#20. Write a Python program to access the index of a list.
 
 li = [5, 15, 35, 8, 98]
 for i in range(len(li)):
     print(i, li[i])
 
 
-21. Write a Python program to convert a list of characters into a string.
+#21. Write a Python program to convert a list of characters into a string.
 
 li = ['a', 'b', 'c', 'd']
 str = ''.join(li)
@@ -195,13 +195,13 @@ print(str)
 
 
 
-22. Write a Python program to find the index of an item in a specified list
+#22. Write a Python program to find the index of an item in a specified list
 
 li = [10, 30, 4, -6]
 print(li.index(30))
 
 
-23. Write a Python program to flatten a shallow list.
+#23. Write a Python program to flatten a shallow list.
 
 li = [[2, 4, 3], [1, 5, 6], [9], [7, 9, 0]]
 li2 = []
@@ -210,7 +210,7 @@ for i in li:
         li2.append(j)
 print(li2)
 
-24. Write a Python program to append a list to the second list.
+#24. Write a Python program to append a list to the second list.
 
 li = [1, 2, 3, 0]
 li2 = ['Red', 'Green', 'Black']
@@ -219,20 +219,20 @@ for i in li2:
 print(li)
 
 
-25. Write a Python program to select an item randomly from a list.
+#25. Write a Python program to select an item randomly from a list.
 
 li = [1, 2, 3, 4, 5]
 import random
 print(random.choice(li))
 
 
-26. Write a Python program to check whether two lists are circularly identical.
+#26. Write a Python program to check whether two lists are circularly identical.
 
 list1 = [10, 10, 0, 0, 10]
 list2 = [10, 10, 10, 0, 0]
 
 
-27. Write a Python program to find the second smallest number in a list.
+#27. Write a Python program to find the second smallest number in a list.
 
 li = [1, 2, -8, 5]
 min = li[0]
@@ -241,7 +241,7 @@ for i in li:
         min = i
 print(min)
 
-28. Write a Python program to find the second largest number in a list.
+#28. Write a Python program to find the second largest number in a list.
 
 li = [1, 2, -8, 5]
 max = li[0]
@@ -250,7 +250,7 @@ for i in li:
         max = i
 print(max)
 
-29. Write a Python program to get unique values from a list.
+#29. Write a Python program to get unique values from a list.
 
 li1 = [12, 54, 85, 69, 54, 12]
 li2 = []
@@ -259,7 +259,7 @@ for i in li1:
         li2.append(i)
 print(li2)
 
-30. Write a Python program to get the frequency of elements in a list.
+#30. Write a Python program to get the frequency of elements in a list.
 
 li = [10, 10, 10, 10, 20, 20, 20, 20, 40, 40, 50, 50, 30]
 li2 = []
@@ -268,12 +268,12 @@ for i in li:
 print(li2)
 
 
-31. Write a Python program to count the number of elements in a list within a specified range.
+#31. Write a Python program to count the number of elements in a list within a specified range.
 
 li = [45,1, 3, 6, 9, 85, 45, 74, 85, 95, 65]
 print(len([i for i in li if 25<i<75]))
 
-32. Write a Python program to check whether a list contains a sublist.
+#32. Write a Python program to check whether a list contains a sublist.
 
 li = [2, 4, 3, 5, 7]
 li2 = [4, 3]
@@ -282,6 +282,11 @@ for i in li2:
         print("True")
     else:
         print("False")
+        
+#33. Write a Python program to generate all sublists of a list.
+list1 = [1, 2, 3]
+sublist = [[]]      
+print(sublist)
 
 
 
